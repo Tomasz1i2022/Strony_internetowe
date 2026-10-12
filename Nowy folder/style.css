@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+title{
+    display: none;
+}
+body{
+    font-family: Arial;
+    background-color: honeydew;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 15px 5%;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.navbar input{
+    width: 280px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: antiquewhite;
+}
+.koszyk{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+}
+.licznik{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 11px;
+}
+.container{
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 25px;
+}
+.banner{
+    background-color: blue;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.etykieta{
+    display: block;
+    color: lavender;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.banner p{
+    max-width: 550px;
+    color: aquamarine;
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.przyciski{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.purple{
+    background-color: purple;
+}
+.dark{
+    border: 1px solid gray;
+}
+#produkty h2{
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.produkty{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.produkt{
+    min-width: 200px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.zdjecie{
+    height: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zdjecie img{
+    width: 100%;
+    height: 100%;
+}
